@@ -1,3 +1,4 @@
+/* PÁGINA CARDÁPIO */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -220,7 +221,7 @@ footer {
     padding: 2em;
     font-size: 0.9em;
 }
-/* === Estilo da logo na página de cardápio === */
+
 .pagina-cardapio header {
   display: flex;
   align-items: center;
@@ -240,7 +241,7 @@ footer {
   display: block;
 }
 
-/* === Estilo exclusivo para a página de HOME === */
+/* PÁGINA HOME */
 .pagina-home header {
   display: flex;
   align-items: center;
@@ -363,14 +364,14 @@ footer {
   }
 }
 
-/* === ESTILO EXCLUSIVO DA PÁGINA DE CONTATO === */
+/* PÁGINA CONTATO */
 .pagina-contato {
   background-color: white;
   color: #000;
   font-family: Arial, sans-serif;
 }
 
-/* Header */
+
 .pagina-contato header {
   background-color: #25532F;
   color: white;
@@ -385,7 +386,7 @@ footer {
   font-weight: bold;
 }
 
-/* Menu */
+
 .pagina-contato nav ul {
   list-style: none;
   display: flex;
@@ -400,7 +401,7 @@ footer {
   border-radius: 5px;
 }
 
-/* Conteúdo principal */
+
 .pagina-contato main {
   max-width: 600px;
   margin: 60px auto;
@@ -416,7 +417,7 @@ footer {
   text-align: left;
 }
 
-/* Formulário */
+
 .pagina-contato form label {
   display: block;
   margin-bottom: 5px;
@@ -451,7 +452,7 @@ footer {
   cursor: pointer;
 }
 
-/* Rodapé da página de contato */
+
 .pagina-contato footer {
   text-align: center;
   margin-top: 40px;
@@ -459,7 +460,7 @@ footer {
   color: #333;
 }
 
-/* === Estilo da logo na página de contato === */
+
 .pagina-contato header {
   display: flex;
   align-items: center;
