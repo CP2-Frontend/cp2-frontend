@@ -170,4 +170,45 @@ footer {
       padding: 1em;
     }
   }
+
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1em;
+    }
+  
+    .logo img {
+      height: 80px;
+      margin-bottom: 1em;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      width: 100%;
+      gap: 0.5em;
+    }
+  
+    nav a {
+      width: 100%;
+      text-align: center;
+      padding: 0.7em;
+    }
+  
+    .comidas {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item {
+      width: 90%;
+    }
+  
+    .detalhes {
+      padding: 1em;
+    }
+  
+    .coluna {
+      width: 100%;
+    }
   
