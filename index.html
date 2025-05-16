@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CHAMANDO O CSS EXTERNO -->
-    <link rel="stylesheet" href="./src/css/estilo.css">
-    <title>Inicio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tacobar</title>
+  <link rel="stylesheet" href="./src/css/estilo.css">
 </head>
-
 <body>
-    <header>
-        <h1 id="logo">Tacobar</h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./src/pages/sobre.html">Sobre</a></li>
-                <li><a href="./src/pages/cardapio.html">Cardápio</a></li>
-                <li><a href="./src/pages/contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="topo">
+      <img src="./src/assets/logo.png" alt="Logo Tacobar" class="logo">
+      <nav>
+        <ul>
+          <li><a href="./index.html" class="ativo">HOME</a></li>
+          <li><a href="./src/pages/sobre.html">SOBRE</a></li>
+          <li><a href="./src/pages/cardapio.html">CARDÁPIO</a></li>
+          <li><a href="./src/pages/contato.html">CONTATO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section class="banner">
-        <img id="image" alt="Imagem">
+  <main>
+    <section class="bemvindo">
+      <div class="fundo-comida">
+        <img src="./src/assets/img1.jpg" alt="Comidas Mexicanas">
+        <div class="sobreposicao">
+          <img src="./src/assets/nossaHistoria.jpeg" alt="Restaurante Tacobar" class="foto-restaurante">
+          <p>
+            Bienvenido ao Tacobar! Aqui você encontra os verdadeiros sabores do México, com pratos preparados com ingredientes frescos, temperos autênticos e muito carinho. Viva essa experiência deliciosa com a gente.
+          </p>
+        </div>
+      </div>
     </section>
+  </main>
 
-    <footer>
-        <h5>&copy; 2025-todos os direitos reservados</h5>
-    </footer>
-
-
-    <!-- CHAMANDO O SCRIPT EXTERNO -->
-    <script src="./src/js/script.js"></script>
+  <footer>
+    <div class="personagens">
+      <img src="./src/assets/tacos.jpg" alt="Personagens Tacobar">
+    </div>
+    <p>&copy; 2025 - todos os direitos reservados</p>
+  </footer>
 </body>
-
 </html>
