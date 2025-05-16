@@ -144,6 +144,51 @@ footer {
     padding: 2em;
     font-size: 0.9em;
 }
+
+@media (max-width: 1024px) {
+    .comidas {
+      flex-wrap: wrap;
+      gap: 1em;
+    }
+  
+    .item {
+      width: 45%;
+    }
+  
+    .detalhes {
+      flex-direction: column;
+    }
+  
+    .coluna {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+  }
+  
+  
+    main {
+      padding: 1em;
+    }
+  /* Responsivo para tablets */
+@media (max-width: 1024px) {
+  .item {
+    width: 45%;
+  }
+
+  .coluna {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .detalhes {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 1em;
+  }
+}
+
 /* Responsivo para smartphones */
 @media (max-width: 600px) {
   header {
@@ -181,23 +226,3 @@ footer {
     width: 100%;
   }
 }
-      padding: 0.7em;
-    }
-  
-    .comidas {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .item {
-      width: 90%;
-    }
-  
-    .detalhes {
-      padding: 1em;
-    }
-  
-    .coluna {
-      width: 100%;
-    }
-  
