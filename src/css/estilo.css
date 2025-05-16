@@ -6,13 +6,13 @@ body {
 .topo {
   background-color: #1c5024;
   display: flex;
-  align-items: center; /* Alinhar verticalmente os itens do header */
+  align-items: center; 
   padding: 10px 30px;
 }
 
 .logo {
   height: 60px;
-  margin-right: 20px; /* Adicionar espaço entre o logo e a navegação */
+  margin-right: 20px; 
 }
 
 nav ul {
@@ -27,7 +27,7 @@ nav ul li a {
   text-decoration: none;
   color: white;
   background-color: #631c28;
-  padding: 8px 14px;
+  padding:8px 14px;
   border-radius: 5px;
 }
 
@@ -220,6 +220,66 @@ footer {
     padding: 2em;
     font-size: 0.9em;
 }
+/* === Estilo da logo na página de cardápio === */
+.pagina-cardapio header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #25532F;
+  padding: 10px 40px;
+}
+
+.pagina-cardapio .logo {
+  display: flex;
+  align-items: center;
+}
+
+.pagina-cardapio .logo img {
+  height: 80px;
+  width: auto;
+  display: block;
+}
+
+/* === Estilo exclusivo para a página de HOME === */
+.pagina-home header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #25532F;
+  padding: 10px 40px;
+}
+
+.pagina-home .logo {
+  display: flex;
+  align-items: center;
+}
+
+.pagina-home .logo img {
+  height: 80px;
+  width: auto;
+  display: block;
+}
+
+.pagina-home nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.pagina-home nav ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: #631c28;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.pagina-home nav ul li a.ativo {
+  border: 2px solid #fff;
+}
 
 @media (max-width: 1024px) {
     .comidas {
@@ -301,4 +361,120 @@ footer {
   .coluna {
     width: 100%;
   }
+}
+
+/* === ESTILO EXCLUSIVO DA PÁGINA DE CONTATO === */
+.pagina-contato {
+  background-color: white;
+  color: #000;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.pagina-contato header {
+  background-color: #25532F;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.pagina-contato #logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Menu */
+.pagina-contato nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.pagina-contato nav a {
+  text-decoration: none;
+  color: white;
+  background-color: #631c28;
+  padding:8px 14px;
+  border-radius: 5px;
+}
+
+/* Conteúdo principal */
+.pagina-contato main {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: #781C1C;
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+}
+
+.pagina-contato main h1 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: left;
+}
+
+/* Formulário */
+.pagina-contato form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.pagina-contato form input,
+.pagina-contato form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+}
+
+.pagina-contato form input::placeholder,
+.pagina-contato form textarea::placeholder {
+  color: #C9C9C9;
+}
+
+.pagina-contato form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #25532F;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Rodapé da página de contato */
+.pagina-contato footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+  color: #333;
+}
+
+/* === Estilo da logo na página de contato === */
+.pagina-contato header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #25532F;
+  padding: 10px 40px;
+}
+
+.pagina-contato .logo {
+  display: flex;
+  align-items: center;
+}
+
+.pagina-contato .logo img {
+  height: 80px;
+  width: auto;
+  display: block;
 }
