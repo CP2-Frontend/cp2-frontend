@@ -226,3 +226,108 @@ footer {
     width: 100%;
   }
 }
+
+/* Pagina de contato */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #000;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #25532F; /* Verde escuro */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: #9E1B1B; /* Vermelho escuro vivo */
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: #781C1C; /* Vermelho escuro */
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+}
+
+main h1 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: left;
+}
+
+/* Estilo do formulário */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #C9C9C9;
+}
+
+/* Botão de envio */
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #25532F; /* Verde escuro */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+  color: #333;
+}
