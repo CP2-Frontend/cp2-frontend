@@ -251,6 +251,35 @@ footer {
   color: #333;
 }
 
+/* FOOTER */
+.pagina-contato .footer-contato {
+  background-color: #791d1a;
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.9em;
+}
+
+.pagina-contato .footer-contato .info-contato p {
+  margin-bottom: 8px;
+}
+
+.pagina-contato .footer-contato .redes-sociais a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+.pagina-contato .footer-contato .redes-sociais a:hover {
+  color: #ccc;
+}
+
+.pagina-contato .footer-contato .copyright {
+  margin-top: 15px;
+  font-size: 0.85em;
+  color: #e0e0e0;
+}  
+
 /* === BEM-VINDO (HOME) === */
 .bemvindo {
   position: relative;
